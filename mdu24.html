@@ -70,7 +70,7 @@
     "contents": [
       {
         "type": "image",
-        "url": "https://img2.pic.in.th/pic/-45c6b1ca61a92f91ac.jpg",
+        "url": "https://sv1.img.in.th/7ug2Iw.jpeg",
         "size": "full",
         "aspectRatio": "1400:200",
         "align": "center",
@@ -102,13 +102,13 @@
                     "type": "image",
                     "size": "full",
                     "aspectRatio": "16:10",
-                    "url": data.imagetitle,
                     "aspectMode": "cover",
                     "action": {
                       "type": "uri",
                       "label": "action",
                       "uri": data.imagetitle
-                    }
+                    },
+                    "url": data.imagetitle
                   }
                 ],
                 "width": "100%",
@@ -130,7 +130,7 @@
                         "color": "#293377",
                         "decoration": "underline",
                         "size": "lg",
-                        "text": data.title
+                        "text": data.imagetitle
                       }
                     ],
                     "margin": "lg",
@@ -141,7 +141,12 @@
                   {
                     "type": "text",
                     "text": data.description,
-                    "wrap": true
+                    "wrap": true,
+                    "action": {
+                      "type": "uri",
+                      "label": "action",
+                      "uri": data.newsfblink
+                    }
                   }
                 ],
                 "paddingAll": "md",
@@ -162,12 +167,12 @@
                         "align": "center",
                         "gravity": "center",
                         "aspectRatio": "16:9",
-                        "url": data.image1,
                         "action": {
                           "type": "uri",
                           "label": "action",
                           "uri": data.image1
-                        }
+                        },
+                        "url": data.image1
                       }
                     ],
                     "borderWidth": "none",
@@ -204,10 +209,10 @@
                     "contents": [
                       {
                         "type": "image",
+                        "url": data.image3,
                         "aspectMode": "cover",
                         "size": "full",
                         "aspectRatio": "16:9",
-                        "url": data.image3,
                         "action": {
                           "type": "uri",
                           "label": "action",
@@ -236,72 +241,72 @@
             "layout": "horizontal",
             "contents": [
               {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "icon",
-                    "url": "https://flex-mdu25.github.io/Pr25/img/ic_facebook.png",
-                    "size": "4xl",
-                    "margin": "none",
-                    "offsetStart": "xxl",
-                    "offsetEnd": "none",
-                    "offsetBottom": "none",
-                    "offsetTop": "xs"
-                  }
-                ],
-                "borderWidth": "normal",
-                "width": "33%",
+                "type": "image",
+                "url": "https://flex-mdu25.github.io/Pr24/ic_fb.png",
                 "action": {
                   "type": "uri",
-                  "label": "FB",
-                  "uri": data.fblink
-                },
-                "justifyContent": "center"
+                  "label": "Facebook",
+                  "uri": "https://www.facebook.com/MDU24"
+                }
               },
               {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "icon",
-                    "url": "https://cdn-icons-png.flaticon.com/512/3938/3938074.png",
-                    "size": "4xl",
-                    "offsetTop": "xs"
-                  }
-                ],
-                "width": "33%",
+                "type": "image",
+                "url": "https://flex-mdu25.github.io/Pr24/ic_youtube.png",
+                "action": {
+                  "type": "uri",
+                  "label": "Youtube",
+                  "uri": "https://www.youtube.com/@mdu24muk"
+                }
+              },
+              {
+                "type": "image",
+                "url": "https://flex-mdu25.github.io/Pr24/ic_tiktok.png",
                 "action": {
                   "type": "uri",
                   "label": "Tiktok",
-                  "uri": data.tklink
-                },
-                "justifyContent": "center"
+                  "uri": "https://www.tiktok.com/@www.mdu24"
+                }
               },
               {
-                "type": "box",
-                "layout": "baseline",
-                "contents": [
-                  {
-                    "type": "icon",
-                    "url": "https://j5pr.rtarf.mi.th/FlexMsg/PRD/images/Flex-%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99Influ/btsweb.png",
-                    "size": "4xl",
-                    "offsetTop": "xs",
-                    "offsetEnd": "xl"
-                  }
-                ],
-                "width": "33%",
+                "type": "image",
+                "url": "https://flex-mdu25.github.io/Pr24/ic_web.png",
                 "action": {
                   "type": "uri",
                   "label": "Website",
-                  "uri": data.weblink
-                },
-                "justifyContent": "center"
+                  "uri": "https://afdc-mdu24.rtarf.mi.th/wir1/"
+                }
+              },
+              {
+                "type": "image",
+                "url": "https://flex-mdu25.github.io/Pr24/ic_ig.png",
+                "action": {
+                  "type": "uri",
+                  "label": "Intragram",
+                  "uri": "https://www.instagram.com/developmentunit24/"
+                }
+              },
+              {
+                "type": "image",
+                "url": "https://flex-mdu25.github.io/Pr24/ic_thread.png",
+                "action": {
+                  "type": "uri",
+                  "label": "Treade",
+                  "uri": "https://www.threads.com/@developmentunit24"
+                }
+              },
+              {
+                "type": "image",
+                "url": "https://flex-mdu25.github.io/Pr24/ic_x.png",
+                "action": {
+                  "type": "uri",
+                  "label": "X",
+                  "uri": "https://x.com/UnitTwoFour"
+                }
               }
             ],
             "paddingTop": "xs",
             "paddingEnd": "xs",
-            "offsetTop": "xs"
+            "spacing": "xs"
           }
         ],
         "backgroundColor": "#ffffff",
@@ -320,8 +325,7 @@
       "angle": "0deg",
       "startColor": "#E6E6FA",
       "endColor": "#005a91"
-    },
-    "backgroundColor": "#B22222"
+    }
   },
   "body": {
     "type": "box",
@@ -333,9 +337,32 @@
         "contents": [
           {
             "type": "image",
+            "url": "https://j5pr.rtarf.mi.th/FlexMsg/PRD/images/Flex-PR%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B1%E0%B8%99/%E0%B8%9D%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B9%E0%B8%9B/Icon%20Flex%20Message%202024/read.png",
+            "size": "full",
+            "aspectRatio": "10:4",
+            "action": {
+              "type": "uri",
+              "label": "อ่านเพิ่มเติม",
+              "uri": data.newsfblink
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "width": "5%"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
             "url": "https://j5pr.rtarf.mi.th/FlexMsg/PRD/images/Flex-PR%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B1%E0%B8%99/%E0%B8%9D%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B9%E0%B8%9B/Icon%20Flex%20Message%202024/share2.png",
             "size": "full",
-            "aspectRatio": "10:2",
+            "aspectRatio": "10:4",
             "action": {
               "type": "uri",
               "label": "คลิกเพื่อแชร์",
@@ -357,9 +384,9 @@
     "contents": [
       {
         "type": "image",
-        "url": "https://img2.pic.in.th/pic/634b9dd044bd06dc8c4e69b837ac0f6e.png",
+        "url": "https://sv1.img.in.th/iW0M4r.jpeg",
         "size": "full",
-        "aspectRatio": "160:18",
+        "aspectRatio": "160:10",
         "aspectMode": "cover"
       }
     ],
@@ -367,7 +394,7 @@
   },
   "styles": {
     "hero": {
-      "backgroundColor": "#B22222"
+      "backgroundColor": "#d6ebf5"
     },
     "body": {
       "backgroundColor": "#d6ebf5"
